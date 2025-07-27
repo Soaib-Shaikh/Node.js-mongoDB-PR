@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------- Global Reset --------- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(90deg, #e3f2fd, #fce4ec); /* Soft blue-pink gradient */
+    color: #212529;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* --------- Navbar --------- */
+.navbar {
+    background: linear-gradient(90deg, #4B6CB7, #182848);
+    padding: 8px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    min-height: 60px;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    color: #f1f1f1 !important;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffe57f !important;
+}
+
+/* --------- Search Form Inside Navbar --------- */
+.search-form {
+    margin-left: auto;
+}
+
+.search-form .input-group {
+    max-width: 380px;
+}
+
+.search-form input[type="text"] {
+    border-radius: 6px 0 0 6px;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+}
+
+.search-form button {
+    background-color: #ffa000;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    font-size: 15px;
+    border-radius: 0 6px 6px 0;
+    transition: background 0.3s ease;
+}
+
+.search-form button:hover {
+    background-color: #fb8c00;
+}
+
+/* --------- Form Section --------- */
+h1 {
+    text-align: center;
+    color: #4B6CB7;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #4B6CB7;
+    box-shadow: none;
+}
+
+/* --------- Buttons --------- */
+.btn-primary {
+    background: linear-gradient(to right, #4B6CB7, #182848);
+    border: none;
+    padding: 10px 22px;
+    font-weight: 600;
+    border-radius: 8px;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #3e5ca3, #141d2f);
+}
+
+/* ---- Page Heading ---- */
+caption h1 {
+    text-align: center;
+    color: #4B6CB7;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+/* ---- Table Styling ---- */
+.table {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background: linear-gradient(90deg, #4B6CB7, #182848);
+    color: white;
+}
+
+.table thead th {
+    padding: 16px;
+    font-size: 16px;
+}
+
+.table tbody tr:hover {
+    background-color: #eef3fc;
+}
+
+.table td {
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+/* ---- Buttons ---- */
+.btn-danger {
+    background-color: #e53935;
+    border: none;
+    padding: 6px 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c62828;
+}
+
+.btn-warning {
+    background-color: #ffca28;
+    border: none;
+    padding: 6px 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    color: black;
+}
+
+.btn-warning:hover {
+    background-color: #f9a825;
+    color: white;
+}
+
+/* --------- Utility Classes --------- */
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
