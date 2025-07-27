@@ -65,7 +65,7 @@ Node.js-mongoDB-PR/
 ### Installation
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone <https://github.com/Soaib-Shaikh/Node.js-mongoDB-PR.git>
    cd Node.js-mongoDB-PR
    ```
 2. Install dependencies:
